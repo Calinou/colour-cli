@@ -1,0 +1,40 @@
+{
+  "name": "colour-cli",
+  "description": "Get information about colors and convert them in the command line",
+  "author": "Hugo Locurcio",
+  "repository": "Calinou/colour-cli",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "color",
+    "colour",
+    "cli",
+    "command-line",
+    "rgb",
+    "hsl",
+    "hex",
+    "hexadecimal"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "bin": {
+    "colour": "index.js"
+  },
+  "dependencies": {
+    "caporal": "^0.10.0",
+    "chalk": "^2.3.2",
+    "color": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  },
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "start": "node index.js",
+    "test": "ava"
+  }
+}
