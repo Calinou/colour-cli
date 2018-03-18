@@ -93,6 +93,14 @@ function displayColor(logger, color, noPreview) {
 // Create the command line interface
 program
   .version('0.1.0')
+  .help(`Displays information about colors and converts them in the command line.\n
+Color strings are accepted in the following formats:
+- rgb(R, G, B) / rgba(R, G, B, A)
+- hsl(H, S, L) / hsla(H, S, L, A)
+- #RRGGBB / #RRGGBBAA / #RGB / #RGBA
+- Web color names
+
+Note: Color strings must be quoted on Linux and macOS.`)
 
   .command('info', 'Display a color in various formats')
   .argument('<color>', 'The color string to display information about')
