@@ -92,7 +92,7 @@ function displayColor(logger, color, noPreview) {
 
 // Create the command line interface
 program
-  .version('0.1.0')
+  .version('1.0.0')
   .help(`Displays information about colors and converts them in the command line.\n
 Color strings are accepted in the following formats:
 - rgb(R, G, B) / rgba(R, G, B, A)

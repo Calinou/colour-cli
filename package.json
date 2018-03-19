@@ -3,7 +3,7 @@
   "description": "Get information about colors and convert them in the command line",
   "author": "Hugo Locurcio",
   "repository": "Calinou/colour-cli",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "keywords": [
