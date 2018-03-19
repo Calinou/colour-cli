@@ -2,6 +2,14 @@
 
 **Get information about colors and convert them in the command line.**
 
+## Use cases
+
+- As HSL colors are easier to reason about by humans, you want to use an
+  HSL color in software that only accepts RGB colors or hexadecimal
+  color codes.
+- You want to perform color manipulation to derive a color scheme from
+  a base color.
+
 ## Installation
 
 Enter one of the following commands in a terminal:
