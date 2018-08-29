@@ -1,5 +1,12 @@
 # colour-cli
 
+___
+
+*This utility is deprecated in favor of a faster, leaner rewrite:
+[**clr**](https://github.com/Calinou/clr)*
+
+___
+
 **Get information about colors and convert them in the command line.**
 
 ## Use cases
@@ -32,20 +39,20 @@ See the command-line help:
 
    COMMANDS
 
-     info <color>                     Display a color in various formats 
-     negate <color>                   Invert and display a color         
-     lighten <color> <amount>         Lighten and display a color        
-     darken <color> <amount>          Darken and display a color         
-     saturate <color> <amount>        Saturate and display a color       
-     desaturate <color> <amount>      Desaturate and display a color     
-     rotate <color> <degrees>         Rotate the hue and display a color 
+     info <color>                     Display a color in various formats
+     negate <color>                   Invert and display a color
+     lighten <color> <amount>         Lighten and display a color
+     darken <color> <amount>          Darken and display a color
+     saturate <color> <amount>        Saturate and display a color
+     desaturate <color> <amount>      Desaturate and display a color
+     rotate <color> <degrees>         Rotate the hue and display a color
      help <command>                   Display help for a specific command
 
    GLOBAL OPTIONS
 
-     -h, --help         Display help                                      
-     -V, --version      Display version                                   
-     --no-color         Disable colors                                    
+     -h, --help         Display help
+     -V, --version      Display version
+     --no-color         Disable colors
      --quiet            Quiet mode - only displays warn and error messages
      -v, --verbose      Verbose mode - will also output debug messages
 ```
